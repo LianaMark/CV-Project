@@ -1,0 +1,331 @@
+﻿body
+{
+    background-color:#eae5dd;
+}
+/*About name and surname*/
+.nmsrnm{
+    font-family:'Bookman Old Style';
+    font-size:35px;
+    letter-spacing:8px;
+    color:#808080;
+    text-align:center;
+}
+/*My Picture*/
+.mypic{
+    width:120px;
+    height:120px;
+    border-color:white;
+    border-style:solid;
+    border-width:10px;
+    transform: rotate(12deg);
+    margin-left:250px;
+    background-image:url("icons/image.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+}
+hr{
+    color:aqua;
+    width:auto;
+}
+/*General Information*/
+h1{
+font-size:35px;
+font-family:'Bookman Old Style';
+font-style:italic;
+text-align:center;
+color:#4a4a4a;
+}
+
+ol{
+    margin-top:30px;
+    list-style-type:none;
+    display:inline-flex;
+    position:absolute;
+}
+
+/*Education Button Information*/
+.edu{
+    border-radius:60%;
+    margin-left:150px;
+    width:55px;
+    height:55px;
+    background-color:#1e5b69;
+    background-image:url("icons/graduation.png");
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.eduinfo{
+  font-size:15px;
+  font-family:Bookman Old Style;
+  font-weight:bolder;
+  margin-left:40px;
+
+}
+summary{
+    width:5px;
+    height:25px;
+    color:#1e5b69;
+    font-size:25px;
+    margin-top:45px;
+}
+summary:hover{
+    opacity:.8;
+    cursor:pointer;
+}
+
+/*Programming Skills Button Information*/
+
+.prg{
+    margin-left:235px;
+    border-radius:60%;
+    width:55px;
+    height:55px;
+    background-color:#1e5b69;
+    background-image:url("icons/technology.png");
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.prginfo{
+  font-size:15px;
+  font-family:Bookman Old Style;
+  font-weight:bolder;
+  margin:0;
+}
+details{
+    text-align:left;
+    font-size:12px;
+    font-family:'Century Gothic';
+}
+summary{
+    color:#1e5b69;
+}
+summary:hover{
+    opacity:.8;
+    cursor:pointer;
+}
+
+/*Location Button Information*/
+
+.loc{
+    margin-left:235px;
+    border-radius:60%;
+    width:55px;
+    height:55px;
+    background-color:#1e5b69;
+    background-image:url("icons/map.png");
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.locinfo{
+  font-size:15px;
+  font-family:Bookman Old Style;
+  font-weight:bolder;
+  margin:0;
+}
+summary{
+    width:5px;
+    height:25px;
+    color:#1e5b69;
+    font-size:25px;
+}
+summary:hover{
+    opacity:.8;
+    cursor:pointer;
+}
+/*Contact Button Information*/
+
+.cont{
+    margin-left:235px;
+    border-radius:60%;
+    width:55px;
+    height:55px;
+    background-color:#1e5b69;
+    background-image:url("icons/telephone.png");
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.continfo{
+  font-size:15px;
+  font-family:Bookman Old Style;
+  font-weight:bolder;
+  margin:0;
+}
+summary{
+    width:5px;
+    height:25px;
+    color:#1e5b69;
+    font-size:25px;
+}
+summary:hover{
+    opacity:.8;
+    cursor:pointer;
+}
+/*What iLike to do?*/
+h2{
+font-size:35px;
+font-family:'Bookman Old Style';
+font-style:italic;
+text-align:center;
+color:#4a4a4a;
+margin-top:200px;
+}
+.likes{
+    display:inline-grid;
+    margin-left:auto;
+    margin:20px 20% auto;
+}
+
+.book{    
+    width:55px;
+    height:55px;
+    background-color:transparent;
+    background-image:url("icons/book.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    border-width:3px;
+    border-color:#808080;
+    border-radius:60%;
+    border-style:dotted;    
+}
+.music{
+    width:55px;
+    height:55px;
+    background-color:transparent;
+    background-image:url("icons/music.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    border-width:3px;
+    border-color:#808080;
+    border-radius:60%;
+    border-style:dotted;
+}
+.stars{
+    width:55px;
+    height:55px;
+    background-color:transparent;
+    background-image:url("icons/nature.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    border-width:3px;
+    border-color:#808080;
+    border-radius:60%;
+    border-style:dotted;
+}
+.draw{
+    width:55px;
+    height:55px;
+    background-color:transparent;
+    background-image:url("icons/rubber.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    border-width:3px;
+    border-color:#808080;
+    border-radius:60%;
+    border-style:dotted;
+}
+.dog{
+    width:55px;
+    height:55px;
+    background-color:transparent;
+    background-image:url("icons/dog.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    border-width:3px;
+    border-color:#808080;
+    border-radius:60%;
+    border-style:dotted;
+}
+.coffee{
+    width:55px;
+    height:55px;
+    background-color:transparent;
+    background-image:url("icons/cup.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    border-width:3px;
+    border-color:#808080;
+    border-radius:60%;
+    border-style:dotted;
+}
+.code{
+    width:55px;
+    height:55px;
+    background-color:transparent;
+    background-image:url("icons/computer.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    border-width:3px;
+    border-color:#808080;
+    border-radius:60%;
+    border-style:dotted;
+}
+.summer{
+    width:55px;
+    height:55px;
+    background-color:transparent;
+    background-image:url("icons/summer.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    border-width:3px;
+    border-color:#808080;
+    border-radius:60%;
+    border-style:dotted;
+}
+.camera{
+    width:55px;
+    height:55px;
+    background-color:transparent;
+    background-image:url("icons/photo.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    border-width:3px;
+    border-color:#808080;
+    border-radius:60%;
+    border-style:dotted;
+}
+.play{
+    width:55px;
+    height:55px;
+    background-color:transparent;
+    background-image:url("icons/play.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    border-width:3px;
+    border-color:#808080;
+    border-radius:60%;
+    border-style:dotted;
+}
+.gift{
+    width:55px;
+    height:55px;
+    background-color:transparent;
+    background-image:url("icons/icon.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    border-width:3px;
+    border-color:#808080;
+    border-radius:60%;
+    border-style:dotted;
+}
+.beard{
+    width:55px;
+    height:55px;
+    background-color:transparent;
+    background-image:url("icons/people.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    border-width:3px;
+    border-color:#808080;
+    border-radius:60%;
+    border-style:dotted;
+}
+
+/*Footer*/
+
+h5{
+     font-family:Bookman Old Style;
+     font-size:10px;
+     margin-top:290px;
+     text-align:center;
+     font-weight:lighter;
+ }
