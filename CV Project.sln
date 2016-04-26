@@ -21,6 +21,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CV Project(1)", ".", "{CC54
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "65043"
+		SlnRelativePath = "..\CV Project\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
